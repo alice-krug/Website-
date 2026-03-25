@@ -1,15 +1,15 @@
-/* --- Styles généraux --- */
+/* --- General Styles --- */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff0f5;
+    background-color: #f5f5f5; /* light gray */
     color: #333;
 }
 
 header {
-    background-color: #ff69b4;
-    color: white;
+    background-color: #444; /* dark gray */
+    color: #f5f5f5;
     padding: 30px 20px;
     text-align: center;
 }
@@ -27,7 +27,7 @@ header p {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #ffb6c1;
+    background-color: #666; /* medium gray */
     flex-wrap: wrap;
 }
 
@@ -35,13 +35,13 @@ nav a {
     margin: 5px 15px;
     padding: 15px 0;
     text-decoration: none;
-    color: white;
+    color: #f5f5f5;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #bbb; /* lighter gray on hover */
 }
 
 main {
@@ -55,13 +55,13 @@ section {
 }
 
 h2 {
-    color: #ff1493;
+    color: #555;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .card {
-    background-color: white;
+    background-color: #fff; /* white for contrast */
     padding: 20px;
     margin: 15px 0;
     border-radius: 10px;
@@ -76,14 +76,14 @@ h2 {
 
 .card h3 {
     margin-top: 0;
-    color: #ff69b4;
+    color: #333;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ff69b4;
-    color: white;
+    background-color: #444;
+    color: #f5f5f5;
     margin-top: 40px;
 }
 
