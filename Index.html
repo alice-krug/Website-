@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauté & Conseils</title>
+    <style>
+        /* --- Styles généraux --- */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffb6c1;
+        }
+
+        nav a {
+            margin: 0 15px;
+            padding: 15px 0;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #ff1493;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #ff69b4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff69b4;
+            color: white;
+            margin-top: 40px;
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Beauté & Conseils</h1>
+    <p>Votre guide pour rayonner chaque jour</p>
+</header>
+
+<nav>
+    <a href="#soin">Soin</a>
+    <a href="#maquillage">Maquillage</a>
+    <a href="#cheveux">Cheveux</a>
+    <a href="#astuces">Astuces</a>
+</nav>
+
+<main>
+    <section id="soin">
+        <h2>Soins de la peau</h2>
+        <div class="card">
+            <h3>Hydratation quotidienne</h3>
+            <p>Appliquez une crème hydratante matin et soir pour protéger votre peau et prévenir le dessèchement.</p>
+        </div>
+        <div class="card">
+            <h3>Nettoyage en profondeur</h3>
+            <p>Utilisez un nettoyant doux adapté à votre type de peau pour éliminer les impuretés sans agresser la peau.</p>
+        </div>
+    </section>
+
+    <section id="maquillage">
+        <h2>Maquillage</h2>
+        <div class="card">
+            <h3>Teint parfait</h3>
+            <p>Choisissez un fond de teint léger et un correcteur pour un look naturel et lumineux.</p>
+        </div>
+        <div class="card">
+            <h3>Yeux lumineux</h3>
+            <p>Un peu de mascara et un fard à paupières neutre suffisent pour mettre en valeur vos yeux.</p>
+        </div>
+    </section>
+
+    <section id="cheveux">
+        <h2>Soins des cheveux</h2>
+        <div class="card">
+            <h3>Shampooing adapté</h3>
+            <p>Utilisez un shampooing correspondant à votre type de cheveux pour garder une chevelure saine et brillante.</p>
+        </div>
+        <div class="card">
+            <h3>Masques capillaires</h3>
+            <p>Faites un masque nourrissant une fois par semaine pour renforcer et hydrater vos cheveux.</p>
+        </div>
+    </section>
+
+    <section id="astuces">
+        <h2>Astuces beauté</h2>
+        <div class="card">
+            <h3>Alimentation saine</h3>
+            <p>Mangez des fruits, légumes et aliments riches en vitamines pour une peau éclatante et des cheveux forts.</p>
+        </div>
+        <div class="card">
+            <h3>Sommeil réparateur</h3>
+            <p>Dormir suffisamment réduit les cernes, revitalise la peau et vous aide à rester rayonnante.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Beauté & Conseils | Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
